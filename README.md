@@ -1,4 +1,5 @@
 === About ===
+
 name: Mark
 website: http://www.ushahidi.com
 description: Adding labels to reports
@@ -9,11 +10,13 @@ author: Oksana Lysak
 author website: http://www.ushahidi.com
 
 == Description ==
+
 Adding labels to reports. 
 Users can view labels, associated with report. If they want to see reports with some label they just click on label and view reports.
 Added jQuery plugin chosen with some modifications.
 
 == Installation ==
+
 1. Unpack archive with plugin
 2. Rename the folder to /mark/
 3. Copy the entire /mark/ directory into your /plugins/ directory.
@@ -28,6 +31,7 @@ You can add some events in your view files. Such as:
 All events you can find in config/mark.php.
 
 == Example ==
+
 /themes/default/views/reports/detail.php
 <?php Event::run('ushahidi_action.report_display_marks', $incident_id);?>
 
@@ -44,6 +48,7 @@ CREATE TABLE IF NOT EXISTS `marks_to_units` (
 
 
 == Changelog ==
+
 0.1
 * Created the plugin
 0.2
