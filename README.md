@@ -1,13 +1,13 @@
 === About ===
 
-name: Mark
-website: http://www.ushahidi.com
-description: Adding labels to reports
-version: 0.2
-requires: 2.1
-tested up to: 2.7
-author: Oksana Lysak
-author website: http://www.ushahidi.com
+name: Mark <br>
+website: http://www.ushahidi.com <br>
+description: Adding labels to reports <br>
+version: 0.2 <br>
+requires: 2.1 <br>
+tested up to: 2.7 <br>
+author: Oksana Lysak <br>
+author website: http://www.ushahidi.com <br>
 
 == Description ==
 
