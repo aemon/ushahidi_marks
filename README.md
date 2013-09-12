@@ -1,19 +1,12 @@
 === About ===
 
 name: Mark
-
 website: http://www.ushahidi.com
-
 description: Adding labels to reports
-
 version: 0.2
-
 requires: 2.1
-
 tested up to: 2.7
-
 author: Oksana Lysak
-
 author website: http://www.ushahidi.com
 
 == Description ==
@@ -32,7 +25,9 @@ Added jQuery plugin chosen with some modifications.
 
 You can add some events in your view files. Such as:
 <?php Event::run('ushahidi_action.report_display_marks', $incident_id);?> in /var/www/themes/default/views/reports/detail.php
+
 <?php Event::run('ushahidi_action.admin_display_add_marks', $id); ?> in /var/www/application/views/admin/reports/edit.php
+
 <?php Event::run('ushahidi_action.report_display_all_marks', $incident_id); ?> in /var/www/themes/default/views/reports/list.php
 
 All events you can find in config/mark.php.
