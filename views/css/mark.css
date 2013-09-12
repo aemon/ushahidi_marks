@@ -1,0 +1,35 @@
+#marks_select{
+    width: 200px;
+}
+
+.add_chosen_val{
+    font-weight: bold;
+}
+
+.marks_block{
+    display: block;
+    margin: 5px 0px 5px 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.marks_list a, .marks_list a:hover{
+    padding: 3px 5px 3px 5px;
+    margin: 2px 5px 2px 0px;
+    border: 1px solid #C2C2C2;    
+    border-radius: 5px;
+    background: #C2C2C2;
+    color: #000000;
+    text-decoration: none; 
+    display: inline-block;   
+}
+
+.marks_list a.active{
+    border-color: #E7E7E7;    
+    background: #E7E7E7;    
+}
+
+.marks_list a:hover{
+    border-color: #C8C8C8;    
+    background: #C8C8C8;
+}
