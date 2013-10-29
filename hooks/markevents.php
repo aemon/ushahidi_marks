@@ -10,7 +10,7 @@ class markevents {
 
     public function __construct()
     {
-//        mysql_query("SET NAMES utf8");
+        
         Event::add('system.pre_controller', array($this, 'add'));
         
         $this->table_prefix = Kohana::config('database.default.table_prefix');
@@ -59,7 +59,7 @@ class markevents {
         $view->render(TRUE);    
     }  
     
-public function  display_admin_marks(){      
+    public function  display_admin_marks(){      
 
         $element_id = Event::$data;
         $view = View::factory('admin_marks_block'); 
